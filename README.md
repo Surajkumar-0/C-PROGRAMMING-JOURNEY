@@ -178,3 +178,34 @@ Hello
 World
 
 Name    Suraj
+
+
+# Chapter 1 Practice Set
+
+This section contains practice problems based on Chapter 1 concepts of C Programming.
+
+## Problems Covered
+
+### 1. Area of Rectangle
+- Input length and breadth from the user
+- Calculate area using:
+  Area = Length × Breadth
+
+### 2. Area of Circle and Volume of Cylinder
+- Calculate area of circle
+- Calculate volume of cylinder
+- Use mathematical formulas:
+  Area = πr²
+  Volume = πr²h
+
+### 3. Celsius to Fahrenheit Conversion
+- Take temperature in Celsius
+- Convert into Fahrenheit
+- Formula:
+  Fahrenheit = (Celsius × 9/5) + 32
+
+### 4. Simple Interest Calculator
+- Take Principal, Rate, and Time as input
+- Calculate Simple Interest
+- Formula:
+  SI = (P × R × T) / 100
