@@ -1,7 +1,7 @@
 # C-PROGRAMMING-JOURNEY
 My C programming learning journey, including notes, examples, and practice programs from basic to advanced concepts.
 
-## 1. First C Program
+## Chapter 1. First C Program
 
 A C program starts execution from the main() function.
 
@@ -209,3 +209,288 @@ This section contains practice problems based on Chapter 1 concepts of C Program
 - Calculate Simple Interest
 - Formula:
   SI = (P × R × T) / 100
+
+
+# Chapter 2: Operators, Type Conversion and Associativity in C
+
+This chapter covers arithmetic operators, type conversion, type casting, operator precedence, and associativity in C programming.
+
+---
+
+# 1. Arithmetic Operators
+
+Arithmetic operators are used to perform mathematical calculations.
+
+| Operator | Meaning |
+|----------|---------|
+| + | Addition |
+| - | Subtraction |
+| * | Multiplication |
+| / | Division |
+| % | Modulus (Remainder) |
+
+### Example
+
+```c
+int a = 10;
+int b = 3;
+
+printf("%d\n", a + b); // 13
+printf("%d\n", a - b); // 7
+printf("%d\n", a * b); // 30
+printf("%d\n", a / b); // 3
+printf("%d\n", a % b); // 1
+```
+
+---
+
+# 2. Modulus Operator (%)
+
+The modulus operator returns the remainder after division.
+
+### Example
+
+```c
+10 % 3 = 1
+15 % 4 = 3
+20 % 5 = 0
+```
+
+### Important Note
+
+```c
+5 % 2 = 1
+-5 % 2 = -1
+```
+
+The sign of the result follows the numerator.
+
+---
+
+# 3. Assignment Operator (=)
+
+Used to assign values to variables.
+
+### Example
+
+```c
+int a = 10;
+int b = a;
+```
+
+Valid:
+
+```c
+a = b;
+```
+
+Invalid:
+
+```c
+5 = a;
+```
+
+The left side must be a variable.
+
+---
+
+# 4. Type Conversion
+
+Type conversion means converting one data type into another.
+
+It can happen automatically by the compiler.
+
+### Example
+
+```c
+float a = 9.0;
+int b = 2;
+
+float c = a / b;
+```
+
+Output:
+
+```text
+4.500000
+```
+
+---
+
+# 5. Type Casting
+
+Type casting is done manually by the programmer.
+
+### Syntax
+
+```c
+(type)value
+```
+
+### Example
+
+```c
+int a = 5;
+int b = 2;
+
+float result = (float)a / b;
+```
+
+Output:
+
+```text
+2.5
+```
+
+Without casting:
+
+```c
+a / b = 2
+```
+
+With casting:
+
+```c
+(float)a / b = 2.5
+```
+
+---
+
+# 6. Power Function
+
+The pow() function is used to calculate powers.
+
+### Header File
+
+```c
+#include <math.h>
+```
+
+### Example
+
+```c
+pow(5, 2);
+```
+
+Output:
+
+```text
+25
+```
+
+---
+
+# 7. Operator Precedence
+
+Operator precedence decides which operator executes first.
+
+### Common Precedence
+
+| Priority | Operators |
+|-----------|-----------|
+| Highest | () |
+| Next | *, /, % |
+| Lowest | +, - |
+
+### Example
+
+```c
+3 + 4 * 2
+```
+
+Output:
+
+```text
+11
+```
+
+Because multiplication executes first.
+
+```c
+3 + (4 * 2)
+= 11
+```
+
+---
+
+# 8. Associativity
+
+Associativity decides the order of execution when operators have the same precedence.
+
+### Left to Right Associativity
+
+```c
+20 / 5 * 2
+```
+
+Execution:
+
+```c
+20 / 5 = 4
+4 * 2 = 8
+```
+
+Output:
+
+```text
+8
+```
+
+---
+
+# 9. Expression Evaluation Example
+
+```c
+3 * b / 2 * c + 7 * a
+```
+
+Given:
+
+```c
+a = 3
+b = 6
+c = 9
+```
+
+Evaluation:
+
+```text
+3*6 = 18
+18/2 = 9
+9*9 = 81
+7*3 = 21
+
+81 + 21 = 102
+```
+
+Output:
+
+```text
+102
+```
+
+---
+
+# Key Takeaways
+
+- Arithmetic operators perform calculations.
+- % returns remainder.
+- Assignment operator stores values.
+- Type conversion happens automatically.
+- Type casting is done manually.
+- pow() calculates powers.
+- Precedence decides which operator runs first.
+- Associativity decides execution order when precedence is same.
+
+---
+
+# Learning Outcome
+
+After completing this chapter, I can:
+
+- Use arithmetic operators.
+- Understand modulus and division.
+- Perform type conversion and type casting.
+- Use the pow() function.
+- Evaluate complex expressions.
+- Understand operator precedence and associativity.
