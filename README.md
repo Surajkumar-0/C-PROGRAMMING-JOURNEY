@@ -494,3 +494,132 @@ After completing this chapter, I can:
 - Use the pow() function.
 - Evaluate complex expressions.
 - Understand operator precedence and associativity.
+
+# Chapter 2 Practice Set
+
+This practice set contains problems based on arithmetic operators, type conversion, type casting, operator precedence, and associativity in C.
+
+---
+
+## Problem 1: Invalid Variable Declaration
+
+### Objective
+Identify the invalid declaration in C.
+
+### Concepts Used
+- Variable declaration
+- Character constants
+- Data types
+
+### Learning
+A character variable can store only a single character enclosed in single quotes.
+
+---
+
+## Problem 2: Expression Evaluation
+
+### Objective
+Evaluate the expression:
+
+```c
+3.0 / 8 - 2
+```
+
+### Concepts Used
+- Floating point arithmetic
+- Division operator
+- Operator precedence
+
+### Learning
+When a floating-point value is involved, the result is calculated as a floating-point number.
+
+---
+
+## Problem 3: Modulus Operator
+
+### Objective
+Find the remainder using:
+
+```c
+3349895 % 97
+```
+
+### Concepts Used
+- Modulus operator (%)
+- Integer arithmetic
+
+### Learning
+The modulus operator returns the remainder after division.
+
+---
+
+## Problem 4: Operator Precedence and Associativity
+
+### Objective
+Evaluate:
+
+```c
+3*x/y - z + k
+```
+
+### Given Values
+
+```c
+x = 2
+y = 3
+z = 3
+k = 1
+```
+
+### Concepts Used
+- Arithmetic operators
+- Operator precedence
+- Associativity
+
+### Learning
+Multiplication and division are performed before addition and subtraction.
+
+---
+
+## Problem 5: Type Conversion
+
+### Objective
+Add an integer and a floating-point value.
+
+```c
+int a = 1;
+float b = 3.0;
+```
+
+### Concepts Used
+- Implicit type conversion
+- Mixed data type operations
+
+### Learning
+During arithmetic operations, the integer value is automatically converted to float.
+
+---
+
+## Key Concepts Practiced
+
+- Variable Declaration
+- Arithmetic Operators
+- Modulus Operator
+- Expression Evaluation
+- Operator Precedence
+- Associativity
+- Type Conversion
+- Floating Point Arithmetic
+
+---
+
+## Learning Outcome
+
+After completing this practice set, I can:
+
+- Solve operator-based problems.
+- Understand precedence and associativity.
+- Use modulus operations correctly.
+- Predict expression outputs.
+- Apply type conversion concepts.
+- Improve logical thinking in C programming.
