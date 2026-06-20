@@ -623,3 +623,143 @@ After completing this practice set, I can:
 - Predict expression outputs.
 - Apply type conversion concepts.
 - Improve logical thinking in C programming.
+
+
+# Chapter 3 - Conditional Instructions
+
+This chapter covers decision-making statements in C. Conditional statements allow a program to execute different blocks of code based on specific conditions.
+
+---
+
+## Topics Covered
+
+### 1. if Statement
+- Executes a block of code when a condition is true.
+- Basic decision-making structure.
+
+### 2. if-else Statement
+- Executes one block when the condition is true.
+- Executes another block when the condition is false.
+
+### 3. Non-Zero Conditions
+- Any non-zero value is treated as TRUE.
+- Zero is treated as FALSE.
+
+Examples:
+```c
+if(1)
+if(100)
+if('A')
+if(2.5)
+```
+
+---
+
+### 4. Logical Operators
+
+#### AND (&&)
+Returns true when both conditions are true.
+
+#### OR (||)
+Returns true when at least one condition is true.
+
+#### NOT (!)
+Reverses the result of a condition.
+
+---
+
+### 5. else-if Ladder
+Used to check multiple conditions sequentially.
+
+Example:
+```c
+if(condition1)
+{
+}
+else if(condition2)
+{
+}
+else
+{
+}
+```
+
+---
+
+### 6. Ternary Operator
+
+Shortcut for simple if-else statements.
+
+Syntax:
+
+```c
+condition ? expression1 : expression2;
+```
+
+Example:
+
+```c
+a > b ? printf("A is greater") : printf("B is greater");
+```
+
+---
+
+### 7. switch-case
+
+Used when multiple choices depend on a single variable.
+
+Example:
+
+```c
+switch(choice)
+{
+    case 1:
+        break;
+
+    case 2:
+        break;
+
+    default:
+        break;
+}
+```
+
+---
+
+### 8. Grade Calculator Project
+
+Mini project using:
+
+- if
+- else-if ladder
+- logical operators
+
+Grades assigned according to marks range.
+
+---
+
+## Key Concepts Practiced
+
+- Decision Making
+- Conditional Statements
+- if Statement
+- if-else Statement
+- else-if Ladder
+- Nested Conditions
+- Logical Operators
+- Ternary Operator
+- Switch Case
+- Mini Project Development
+
+---
+
+## Learning Outcome
+
+After completing this chapter, I can:
+
+- Write conditional programs.
+- Make decisions using if-else.
+- Use logical operators effectively.
+- Handle multiple conditions using else-if ladder.
+- Use switch-case statements.
+- Build simple real-world programs like Grade Calculators.
