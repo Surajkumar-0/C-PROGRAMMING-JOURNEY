@@ -763,3 +763,117 @@ After completing this chapter, I can:
 - Handle multiple conditions using else-if ladder.
 - Use switch-case statements.
 - Build simple real-world programs like Grade Calculators.
+
+
+# Chapter 3 Practice Set - Conditional Instructions
+
+This practice set focuses on applying conditional statements in C programming using if, if-else, else-if ladder, logical operators, and comparison operators.
+
+---
+
+## Problems Covered
+
+### Problem 1: Assignment vs Equality Operator
+
+Learned the difference between:
+
+```c
+if(a = 11)   // Assignment
+if(a == 11)  // Comparison
+```
+
+---
+
+### Problem 2: Pass or Fail Program
+
+Conditions:
+
+- Minimum 33% in each subject
+- Overall percentage >= 40%
+
+Concepts Used:
+
+- if-else
+- Logical OR (||)
+- Arithmetic Operations
+
+---
+
+### Problem 3: Income Tax Calculator
+
+Tax Slabs:
+
+- Up to ₹2,50,000 → No Tax
+- ₹2,50,001 – ₹5,00,000 → 5%
+- ₹5,00,001 – ₹10,00,000 → 20%
+- Above ₹10,00,000 → 30%
+
+Concepts Used:
+
+- else-if ladder
+- Mathematical calculations
+
+---
+
+### Problem 4: Leap Year Checker
+
+Leap Year Rules:
+
+- Divisible by 400
+OR
+- Divisible by 4 but not by 100
+
+Concepts Used:
+
+- Logical AND (&&)
+- Logical OR (||)
+
+---
+
+### Problem 5: Lowercase Character Check
+
+ASCII Range:
+
+- a → 97
+- z → 122
+
+Concepts Used:
+
+- Character handling
+- ASCII values
+- Relational operators
+
+---
+
+### Problem 6: Greatest of Four Numbers
+
+Find the largest number among four inputs.
+
+Concepts Used:
+
+- Comparison operators
+- Conditional statements
+
+---
+
+## Concepts Practiced
+
+- if statement
+- if-else statement
+- else-if ladder
+- Logical operators
+- Relational operators
+- Character handling
+- Nested decision making
+
+---
+
+## Learning Outcome
+
+After completing this practice set, I can:
+
+- Make decisions using conditional statements.
+- Use logical operators effectively.
+- Solve real-world decision-based problems.
+- Work with characters and ASCII values.
+- Build simple tax, grading, and comparison programs.
