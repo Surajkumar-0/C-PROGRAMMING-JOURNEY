@@ -877,3 +877,250 @@ After completing this practice set, I can:
 - Solve real-world decision-based problems.
 - Work with characters and ASCII values.
 - Build simple tax, grading, and comparison programs.
+
+
+# Chapter 04 - Loops in C
+
+This chapter introduces Loops in C Programming. Loops are used to execute a block of code repeatedly until a specified condition becomes false.
+
+---
+
+## Topics Covered
+
+### 1. Introduction to Loops
+
+Loops help avoid writing the same code multiple times.
+
+Example:
+
+```c
+printf("Happy Birthday!\n");
+```
+
+Instead of writing the statement repeatedly, loops can be used.
+
+---
+
+### 2. While Loop
+
+The while loop executes a block of code as long as the given condition remains true.
+
+Syntax:
+
+```c
+while(condition)
+{
+    // code
+}
+```
+
+Example:
+
+```c
+int i = 0;
+
+while(i < 5)
+{
+    printf("%d\n", i);
+    i++;
+}
+```
+
+---
+
+### 3. Counter Variable
+
+A counter variable controls how many times a loop runs.
+
+Example:
+
+```c
+int i = 0;
+
+while(i < 10)
+{
+    printf("%d\n", i);
+    i++;
+}
+```
+
+---
+
+### 4. Infinite Loop
+
+An infinite loop never stops because its condition is always true.
+
+Example:
+
+```c
+while(1)
+{
+    printf("Infinite Loop");
+}
+```
+
+---
+
+### 5. Increment and Decrement Operators
+
+Used to increase or decrease variable values.
+
+Increment:
+
+```c
+i++;
+++i;
+```
+
+Decrement:
+
+```c
+i--;
+--i;
+```
+
+Example:
+
+```c
+int i = 5;
+
+i++;
+i--;
+```
+
+---
+
+### 6. Do While Loop
+
+The do while loop executes the code at least once before checking the condition.
+
+Syntax:
+
+```c
+do
+{
+    // code
+}
+while(condition);
+```
+
+Example:
+
+```c
+int i = 0;
+
+do
+{
+    printf("%d\n", i);
+    i++;
+}
+while(i < 5);
+```
+
+---
+
+### 7. For Loop
+
+A for loop is used when the number of iterations is known.
+
+Syntax:
+
+```c
+for(initialization; condition; update)
+{
+    // code
+}
+```
+
+Example:
+
+```c
+for(int i = 0; i < 5; i++)
+{
+    printf("%d\n", i);
+}
+```
+
+---
+
+### 8. Decrementing For Loop
+
+A for loop can also run in reverse order.
+
+Example:
+
+```c
+for(int i = 10; i > 0; i--)
+{
+    printf("%d\n", i);
+}
+```
+
+---
+
+### 9. Break Statement
+
+The break statement immediately terminates a loop.
+
+Example:
+
+```c
+for(int i = 0; i < 10; i++)
+{
+    if(i == 5)
+    {
+        break;
+    }
+
+    printf("%d\n", i);
+}
+```
+
+---
+
+### 10. Continue Statement
+
+The continue statement skips the current iteration and moves to the next iteration.
+
+Example:
+
+```c
+for(int i = 0; i < 10; i++)
+{
+    if(i == 5)
+    {
+        continue;
+    }
+
+    printf("%d\n", i);
+}
+```
+
+---
+
+## Key Concepts Practiced
+
+* Introduction to Loops
+* While Loop
+* Counter Variables
+* Infinite Loops
+* Increment and Decrement Operators
+* Do While Loop
+* For Loop
+* Decrementing For Loop
+* Break Statement
+* Continue Statement
+
+---
+
+## Learning Outcome
+
+After completing this chapter, I can:
+
+* Use loops to execute repetitive tasks.
+* Work with while loops.
+* Work with do while loops.
+* Use for loops efficiently.
+* Control loop execution using break and continue.
+* Understand increment and decrement operators.
+* Create programs with repetitive logic using loops.
