@@ -1124,3 +1124,170 @@ After completing this chapter, I can:
 * Control loop execution using break and continue.
 * Understand increment and decrement operators.
 * Create programs with repetitive logic using loops.
+
+
+# Chapter 4 Practice Set - Loops
+
+This practice set focuses on solving loop-based problems in C programming using `for`, `while`, and `do-while` loops. It helps in understanding iteration, repetition, and mathematical problem-solving.
+
+---
+
+## Problems Covered
+
+### Problem 1: Multiplication Table (Ascending)
+
+Print the multiplication table of a given number from **1 to 10**.
+
+Concepts Used:
+
+- for loop
+- User input
+- Arithmetic operations
+
+---
+
+### Problem 2: Multiplication Table (Descending)
+
+Print the multiplication table of a given number from **10 to 1**.
+
+Concepts Used:
+
+- for loop
+- Reverse iteration
+- Arithmetic operations
+
+---
+
+### Problem 3: Do-While Loop MCQ
+
+Understand the behavior of the `do-while` loop.
+
+Key Concept:
+
+- A `do-while` loop executes **at least once**, even if the condition is false.
+
+---
+
+### Problem 4: Multiplication Table Using While Loop
+
+Generate the multiplication table of a number using a `while` loop.
+
+Concepts Used:
+
+- while loop
+- Loop control
+- Increment operator
+
+---
+
+### Problem 5: Sum of First 10 Natural Numbers
+
+Calculate the sum of the first ten natural numbers.
+
+Concepts Used:
+
+- while loop
+- Accumulator variable
+- Iteration
+
+---
+
+### Problem 6: Sum Using Different Loops
+
+Solve the same problem using different looping techniques.
+
+Concepts Used:
+
+- for loop
+- while loop
+- do-while loop
+- Loop comparison
+
+---
+
+### Problem 7: Sum of a Multiplication Table
+
+Find the sum of all values in the multiplication table of a given number.
+
+Concepts Used:
+
+- for loop
+- Arithmetic operations
+- Accumulation
+
+---
+
+### Problem 8: Factorial Using For Loop
+
+Calculate the factorial of a number using a `for` loop.
+
+Concepts Used:
+
+- for loop
+- Multiplication
+- Factorial logic
+
+---
+
+### Problem 9: Factorial Using While Loop
+
+Calculate the factorial of a number using a `while` loop.
+
+Concepts Used:
+
+- while loop
+- Factorial calculation
+- Loop control
+
+---
+
+### Problem 10: Prime Number Check Using For Loop
+
+Determine whether a given number is prime.
+
+Concepts Used:
+
+- for loop
+- Conditional statements
+- break statement
+
+---
+
+### Problem 11: Prime Number Check Using Do-While Loop
+
+Check whether a number is prime using a `do-while` loop.
+
+Concepts Used:
+
+- do-while loop
+- Conditional statements
+- break statement
+
+---
+
+## Concepts Practiced
+
+- for loop
+- while loop
+- do-while loop
+- Nested logic
+- Arithmetic operations
+- Factorial
+- Prime number checking
+- Multiplication tables
+- Loop comparison
+- break statement
+
+---
+
+## Learning Outcome
+
+After completing this practice set, I can:
+
+- Solve problems using different types of loops.
+- Generate multiplication tables efficiently.
+- Calculate factorials using iterative methods.
+- Find the sum of numbers using loops.
+- Check whether a number is prime.
+- Understand the differences between `for`, `while`, and `do-while` loops.
+- Improve logical thinking through loop-based programming problems.
