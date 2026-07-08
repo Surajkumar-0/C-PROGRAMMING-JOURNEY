@@ -1291,3 +1291,106 @@ After completing this practice set, I can:
 - Check whether a number is prime.
 - Understand the differences between `for`, `while`, and `do-while` loops.
 - Improve logical thinking through loop-based programming problems.
+
+
+# Chapter 5 - Functions and Recursion
+
+This chapter introduces **Functions** in C programming and explains how they help in writing modular, reusable, and organized code. It also covers **Recursion**, where a function calls itself to solve a problem.
+
+---
+
+## Programs Covered
+
+### Program 1: Function Declaration, Definition and Call
+
+Create a function to perform addition and call it multiple times.
+
+Concepts Used:
+
+- Function Prototype
+- Function Definition
+- Function Call
+- Return Value
+
+---
+
+### Program 2: Multiple Functions
+
+Create multiple functions to display different greeting messages.
+
+Concepts Used:
+
+- Multiple Functions
+- Void Functions
+- Function Calls
+- Program Modularity
+
+---
+
+### Program 3: Call by Value
+
+Understand how function arguments are passed by value.
+
+Concepts Used:
+
+- Call by Value
+- Local Variables
+- Parameter Passing
+- Variable Scope
+
+---
+
+### Program 4: Using Library Functions
+
+Use predefined functions from the C Standard Library.
+
+Concepts Used:
+
+- `<math.h>`
+- `pow()` Function
+- Header Files
+- Library Functions
+
+---
+
+### Program 5: Recursion
+
+Calculate the factorial of a number using recursion.
+
+Concepts Used:
+
+- Recursive Function
+- Base Condition
+- Recursive Call
+- Stack Execution
+
+---
+
+## Concepts Practiced
+
+- Function Prototype
+- Function Definition
+- Function Call
+- Return Statement
+- Void Functions
+- Call by Value
+- Local Variables
+- Header Files
+- Library Functions
+- Recursion
+- Base Case
+- Recursive Problem Solving
+
+---
+
+## Learning Outcome
+
+After completing this chapter, I can:
+
+- Create and use user-defined functions.
+- Understand the difference between declaration, definition, and function call.
+- Pass arguments to functions using call by value.
+- Use standard library functions like `pow()`.
+- Write recursive functions with proper base conditions.
+- Improve code readability through modular programming.
+- Solve problems efficiently using functions and recursion.
